@@ -8,8 +8,6 @@ public class QuickSort {
 		for (int x : array) {
 			System.out.println(x);
 		}
-
-
 	}
 	
 	public static void sort(int[] array, int start, int end) {
@@ -44,3 +42,7 @@ public class QuickSort {
 	}
 
 }
+
+// pivot selection criteria is last element as pivot 
+// time is O(nlogn), space is O(1)
+// un stable and inplace
